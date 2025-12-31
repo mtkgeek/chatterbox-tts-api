@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  chatterbox-tts:
+  chatterbox_tts:
     build:
       context: .
       dockerfile: docker/Dockerfile.cpu
